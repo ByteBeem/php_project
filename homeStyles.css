@@ -1,0 +1,76 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color and center the content vertically */
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the profile container */
+.profile-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Style the profile picture */
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    object-fit: cover; /* Ensures the image covers the entire circle */
+    border: 3px solid #007bff; /* Add a border with a blue color */
+}
+
+/* Style the form */
+.upload-form {
+    text-align: center;
+}
+
+/* Style the file input */
+.upload-input {
+    display: none; /* Hide the input element */
+}
+
+/* Style the label for the file input to look like a button */
+.upload-label {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Add a hover effect to the file input label */
+.upload-label:hover {
+    background-color: #0056b3;
+}
+
+/* Style the submit button */
+.submit-button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Add a hover effect to the submit button */
+.submit-button:hover {
+    background-color: #0056b3;
+}
